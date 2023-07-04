@@ -1,0 +1,35 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .made-by-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .social-links {
+    margin-top: 0;
+  }
+  
+  .social-link {
+    font-size: 25px;
+    margin: 0 10px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-link.strava {
+    color: #f75e25; /* Orange color for Strava */
+  }
+  
+  .social-icon {
+    vertical-align: middle;
+  }
+  

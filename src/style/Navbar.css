@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #ff9248;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #fff;
+    flex: 1; /* Added flex property */
+  }
+  
+  .navbar__logo-text {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 auto; /* Added margin property */
+  }
+  
+  .navbar__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Changed from space-between to center */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar__item {
+    margin-right: 10px;
+  }
+  
+  .navbar__link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar__link:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .navbar__logo-text:hover {
+    cursor: pointer;
+    /* Add your clicker icon or custom cursor here */
+  }
+  

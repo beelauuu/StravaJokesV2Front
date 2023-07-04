@@ -32,4 +32,26 @@
   .social-icon {
     vertical-align: middle;
   }
+
+  /* Assuming you have a CSS file named Footer.css */
+
+.joke-disclaimer {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.joke-disclaimer::before,
+.joke-disclaimer::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 30px;
+  background-color: #777;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+
   

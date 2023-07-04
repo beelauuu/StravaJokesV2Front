@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faStrava,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faStrava } from "@fortawesome/free-brands-svg-icons";
 import "../style/Footer.css";
 
 const Footer = () => {
@@ -47,6 +43,11 @@ const Footer = () => {
           <div className="col-lg-12">
             <div className="social-links">
               {renderSocialLinks()}
+              <p className="joke-disclaimer">
+                Some jokes may not be appropriate for everyone.
+                I am not responsible if it prints out an inappropriate joke.
+                Exercise caution when using Joke.py.
+              </p>
             </div>
           </div>
         </div>

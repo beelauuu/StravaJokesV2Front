@@ -23,11 +23,11 @@ const Main = () => {
   const imageSource = isMobile ? jokesImageMobile : jokesImage;
 
   const handleEnableJokes = () => {
-    window.location.href = "https://stravajokesv2.beelauuu.repl.co/login";
+    window.location.href = "https://strava-jokes.onrender.com/login";
   };
 
   const handleDisableJokes = () => {
-    window.location.href = "https://stravajokesv2.beelauuu.repl.co/delete";
+    window.location.href = "https://strava-jokes.onrender.com/delete";
   };
 
   return (
